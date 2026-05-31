@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Acrox VPN",
+  "version": "1.0",
+  "description": "Acrox Systems Labs Güvenli Proxy ve Tünelleme Uzantısı",
+  "permissions": [
+    "proxy",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "acrox.png",
+      "48": "acrox.png",
+      "128": "acrox.png"
+    }
+  }
+}
